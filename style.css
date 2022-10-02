@@ -3,6 +3,12 @@
 	margin: 0;
 }
 
+/*Disables highlight color of hyperlinks*/
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}
+
 body {
 	background-color: #FF7777;
 	font-family: sans-serif;
